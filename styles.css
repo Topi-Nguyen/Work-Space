@@ -1,0 +1,272 @@
+/* Resset CSS */
+
+*{
+     /* emmet */
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+html {
+     font-family: Arial, Helvetica, sans-serif;
+     
+}
+
+.clear {
+     clear: both;
+}
+.text-white{
+     color: #fff !important;
+}
+
+#wrapper{
+
+}
+
+/* header */
+#header{
+     height: 46px;
+     background-color: #000;
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     z-index: 1;
+
+}
+#nav ,.subnav { 
+     list-style-type: none;
+     display: inline-block;
+
+}
+#header .search-btn:hover{
+     background-color: #f44336;
+}
+
+
+#header .search-icon {
+     color: #fff;
+     font-size: 20px;
+     line-height: 46px;
+     padding: 0 21px;
+}
+
+#header .search-btn {
+     float: right;
+     cursor: pointer;
+     
+}
+
+/* Tphan cua More */
+#nav > li{
+     display: inline-block;
+}
+
+#nav li {
+     display: inline-block;
+}
+
+#nav > li > a {
+     color:  #fff;
+     text-transform: uppercase;
+}
+
+#nav li a{
+     text-decoration: none;
+     line-height: 46px;
+     padding:  0 24px;
+     display: block;
+
+}
+
+#nav li:hover .subnav{
+     display: block;
+}
+
+#nav > li:hover > a {  color: #000;
+     background-color: #ccc;}
+
+
+
+#nav .subnav {
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+#nav .subnav a{ 
+     color: #000;
+     padding: 0 16px;
+     line-height: 38px;
+}
+
+#nav .nav-arow-down {
+     font-size: 14px;
+}
+
+#nav .subnav li:hover {
+     color: #000;
+     background-color: #ccc;
+}
+/* end more */
+
+/* Slider: ảnh đầu trang + tiêu đề */
+#slider{
+    margin-top: 0;
+    position: relative;
+    padding-top: 50%;
+    background: url('/assets/image/Slider/chicago.jpg') top center / cover no-repeat ;
+}
+
+#slider .text-content {
+     position: absolute;
+     bottom: 47px;
+     color: #fff;
+     left: 50%;
+     transform: translateX(-50%);
+     text-align: center;
+}
+#slider .text-heading{
+font-weight: 500;
+font-size: 24px;
+}
+#slider .text-noidung{
+font-size: 15px;
+}
+/* End slider */
+
+/* p2 content: Img và paragraph */
+#content{
+
+}
+#content .content-section{
+     width: 800px;
+     padding: 64px 0;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+#content .section-heading{
+     font-size: 30px;
+     font-weight: 500;
+     text-align: center;
+     letter-spacing: 4px;
+}
+#content .section-sub-heading{
+     font-size: 15px;
+     text-align: center;
+     margin-top: 25px;
+     font-style: italic;
+     opacity: 0.6; 
+}
+#content .about-text{
+    margin-top: 25px;
+    font-size: 15px;
+    line-height: 1.4;
+}
+#content .members-list {
+     margin-top: 48px;
+}
+
+#content .members-item {
+     float: left;
+    /* width: 33,33333%;*/
+      width: calc(100% / 3);
+      text-align: center;
+}
+#content .member-name{
+     font-size: 15px;    
+     
+}
+#content .member-img{
+     width: 154px;  
+
+    border-radius: 4px;
+     
+}
+/* End content */
+
+/* Tour section */
+.tour-section {
+     background-color: #000;
+}
+.ticket-list{
+     background-color: #fff;
+     margin-top: 40px;
+}
+
+.ticket-list li{
+     color: #757575;
+     font-size: 15px;
+     padding: 11px 16px;
+     border-bottom: 1px solid #ddd;
+     list-style: none;
+}
+
+.ticket-list .sold-out{
+     background-color: #f44336;
+     color: #fff;
+     padding: 3px 4px;
+     margin-left: 16px;
+}
+
+.ticket-list .quanlity{
+     color: #fff;
+     float: right;
+     width: 24px;
+     height: 24px;
+     background-color: #000;
+     border-radius: 50%;
+     text-align: center;
+     line-height: 24px;
+     margin-top: -3px;
+}
+/* Place */
+.places-list{
+     margin-top: 32px;
+     margin-left: -8px;
+     margin-right: -8px;
+}
+.place-item{
+     float: left;
+     width: 33.33%;
+     padding: 0px 8px;
+}
+.place-img{
+     width: 100%;
+     display: block;
+}
+.place-img:hover{
+     opacity: 0.6;
+}
+
+.place-in{
+     padding: 16px;
+     font-size: 15px;
+     background-color: #fff ;
+}
+.place-header{
+     font-size: 15px;
+     font-weight: 600;
+}
+.place-time{
+      margin-top: 15px;
+      color: #757575;
+}
+.place-paragarph{
+     margin-top: 15px;
+      line-height: 1.4px;
+}
+.place-buy{
+
+}
+/* end place*/
+
+/* End Tour */
+
+/* Footer section */
+#footer{
+
+}
